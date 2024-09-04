@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MySQL-advance | Awaken&#39;s blogs</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/wtw.jpg">
+    <meta name="description" content="Awaken's blogs">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.dfeb017d.css" as="style"><link rel="preload" href="/assets/js/app.03646987.js" as="script"><link rel="preload" href="/assets/js/3.a8134f0a.js" as="script"><link rel="preload" href="/assets/js/1.a394b090.js" as="script"><link rel="preload" href="/assets/js/80.ffafa3ff.js" as="script"><link rel="prefetch" href="/assets/js/10.0aed174e.js"><link rel="prefetch" href="/assets/js/100.02914097.js"><link rel="prefetch" href="/assets/js/101.95f6c81a.js"><link rel="prefetch" href="/assets/js/102.48df0133.js"><link rel="prefetch" href="/assets/js/103.200f5642.js"><link rel="prefetch" href="/assets/js/104.080c910a.js"><link rel="prefetch" href="/assets/js/105.943605b5.js"><link rel="prefetch" href="/assets/js/106.55d2b7c0.js"><link rel="prefetch" href="/assets/js/107.dbf3105f.js"><link rel="prefetch" href="/assets/js/108.3a747b28.js"><link rel="prefetch" href="/assets/js/109.e9453b81.js"><link rel="prefetch" href="/assets/js/11.38bfbf06.js"><link rel="prefetch" href="/assets/js/110.15ce5269.js"><link rel="prefetch" href="/assets/js/111.e2a2b309.js"><link rel="prefetch" href="/assets/js/112.83e22ec5.js"><link rel="prefetch" href="/assets/js/113.4c53e21e.js"><link rel="prefetch" href="/assets/js/114.3fdb14e5.js"><link rel="prefetch" href="/assets/js/115.24fd8b47.js"><link rel="prefetch" href="/assets/js/116.fa4af7d3.js"><link rel="prefetch" href="/assets/js/117.c5bc84c0.js"><link rel="prefetch" href="/assets/js/118.6ad3d598.js"><link rel="prefetch" href="/assets/js/119.fd9eb4ba.js"><link rel="prefetch" href="/assets/js/12.088628ed.js"><link rel="prefetch" href="/assets/js/120.36824fa8.js"><link rel="prefetch" href="/assets/js/121.6edd4478.js"><link rel="prefetch" href="/assets/js/122.228b556b.js"><link rel="prefetch" href="/assets/js/123.a51f4b7b.js"><link rel="prefetch" href="/assets/js/124.32fa9997.js"><link rel="prefetch" href="/assets/js/125.29138718.js"><link rel="prefetch" href="/assets/js/126.bfeae404.js"><link rel="prefetch" href="/assets/js/127.bbe78f94.js"><link rel="prefetch" href="/assets/js/128.6a9fd1ab.js"><link rel="prefetch" href="/assets/js/129.a26030ce.js"><link rel="prefetch" href="/assets/js/13.50987128.js"><link rel="prefetch" href="/assets/js/130.5a29c5e3.js"><link rel="prefetch" href="/assets/js/131.83dd6a40.js"><link rel="prefetch" href="/assets/js/132.31961e3b.js"><link rel="prefetch" href="/assets/js/133.12379872.js"><link rel="prefetch" href="/assets/js/134.2f630670.js"><link rel="prefetch" href="/assets/js/135.516248e9.js"><link rel="prefetch" href="/assets/js/136.c9fb3676.js"><link rel="prefetch" href="/assets/js/137.0d58b935.js"><link rel="prefetch" href="/assets/js/138.106b8051.js"><link rel="prefetch" href="/assets/js/139.3a4177bb.js"><link rel="prefetch" href="/assets/js/14.d98ee26c.js"><link rel="prefetch" href="/assets/js/140.cf104912.js"><link rel="prefetch" href="/assets/js/141.917d5919.js"><link rel="prefetch" href="/assets/js/142.d0c49c8f.js"><link rel="prefetch" href="/assets/js/143.e5647fcb.js"><link rel="prefetch" href="/assets/js/144.42362cf2.js"><link rel="prefetch" href="/assets/js/145.9f603000.js"><link rel="prefetch" href="/assets/js/146.9b30f1cd.js"><link rel="prefetch" href="/assets/js/147.00acaf92.js"><link rel="prefetch" href="/assets/js/148.0c69b088.js"><link rel="prefetch" href="/assets/js/149.2f219e93.js"><link rel="prefetch" href="/assets/js/15.d642d730.js"><link rel="prefetch" href="/assets/js/150.375474c6.js"><link rel="prefetch" href="/assets/js/151.66a582d5.js"><link rel="prefetch" href="/assets/js/152.1665682e.js"><link rel="prefetch" href="/assets/js/153.5a97da8e.js"><link rel="prefetch" href="/assets/js/154.3b76b78d.js"><link rel="prefetch" href="/assets/js/155.c92a6111.js"><link rel="prefetch" href="/assets/js/156.a247cd62.js"><link rel="prefetch" href="/assets/js/16.172153f0.js"><link rel="prefetch" href="/assets/js/17.ca69a778.js"><link rel="prefetch" href="/assets/js/18.3be7ba8f.js"><link rel="prefetch" href="/assets/js/19.4f66b5d8.js"><link rel="prefetch" href="/assets/js/20.8f0cd2cb.js"><link rel="prefetch" href="/assets/js/21.20681ba8.js"><link rel="prefetch" href="/assets/js/22.53b5baea.js"><link rel="prefetch" href="/assets/js/23.8b55cb0e.js"><link rel="prefetch" href="/assets/js/24.3328372c.js"><link rel="prefetch" href="/assets/js/25.ec23edd8.js"><link rel="prefetch" href="/assets/js/26.76e210a5.js"><link rel="prefetch" href="/assets/js/27.29b300ec.js"><link rel="prefetch" href="/assets/js/28.682ad17a.js"><link rel="prefetch" href="/assets/js/29.e1db4b89.js"><link rel="prefetch" href="/assets/js/30.796c2e36.js"><link rel="prefetch" href="/assets/js/31.912d2fae.js"><link rel="prefetch" href="/assets/js/32.60a749df.js"><link rel="prefetch" href="/assets/js/33.d87002b1.js"><link rel="prefetch" href="/assets/js/34.40a8b3f6.js"><link rel="prefetch" href="/assets/js/35.670ac802.js"><link rel="prefetch" href="/assets/js/36.e9f74d88.js"><link rel="prefetch" href="/assets/js/37.6d6f43d0.js"><link rel="prefetch" href="/assets/js/38.ef496ae1.js"><link rel="prefetch" href="/assets/js/39.fc216f43.js"><link rel="prefetch" href="/assets/js/4.01043612.js"><link rel="prefetch" href="/assets/js/40.3bd13625.js"><link rel="prefetch" href="/assets/js/41.3f331b95.js"><link rel="prefetch" href="/assets/js/42.3b26f469.js"><link rel="prefetch" href="/assets/js/43.744d42da.js"><link rel="prefetch" href="/assets/js/44.8b9a8908.js"><link rel="prefetch" href="/assets/js/45.19c8ed8e.js"><link rel="prefetch" href="/assets/js/46.29927647.js"><link rel="prefetch" href="/assets/js/47.e4f53070.js"><link rel="prefetch" href="/assets/js/48.108272d7.js"><link rel="prefetch" href="/assets/js/49.c1e35862.js"><link rel="prefetch" href="/assets/js/5.80b3dd9d.js"><link rel="prefetch" href="/assets/js/50.8af695e4.js"><link rel="prefetch" href="/assets/js/51.33ef3df2.js"><link rel="prefetch" href="/assets/js/52.58bb8f89.js"><link rel="prefetch" href="/assets/js/53.4c6b5e8a.js"><link rel="prefetch" href="/assets/js/54.5763a55d.js"><link rel="prefetch" href="/assets/js/55.15295e7d.js"><link rel="prefetch" href="/assets/js/56.61c94966.js"><link rel="prefetch" href="/assets/js/57.46def60f.js"><link rel="prefetch" href="/assets/js/58.119434b5.js"><link rel="prefetch" href="/assets/js/59.f712c9c5.js"><link rel="prefetch" href="/assets/js/6.a702a72d.js"><link rel="prefetch" href="/assets/js/60.2072c323.js"><link rel="prefetch" href="/assets/js/61.09518814.js"><link rel="prefetch" href="/assets/js/62.35a494eb.js"><link rel="prefetch" href="/assets/js/63.d31876c6.js"><link rel="prefetch" href="/assets/js/64.8f68a737.js"><link rel="prefetch" href="/assets/js/65.6b094c4b.js"><link rel="prefetch" href="/assets/js/66.7c5599cd.js"><link rel="prefetch" href="/assets/js/67.625cd24c.js"><link rel="prefetch" href="/assets/js/68.371f4f22.js"><link rel="prefetch" href="/assets/js/69.c45293ee.js"><link rel="prefetch" href="/assets/js/7.076cee01.js"><link rel="prefetch" href="/assets/js/70.7a22bd02.js"><link rel="prefetch" href="/assets/js/71.729213ff.js"><link rel="prefetch" href="/assets/js/72.0f07bfbc.js"><link rel="prefetch" href="/assets/js/73.4d0355d4.js"><link rel="prefetch" href="/assets/js/74.0f47f56e.js"><link rel="prefetch" href="/assets/js/75.d11ecf15.js"><link rel="prefetch" href="/assets/js/76.727f8a27.js"><link rel="prefetch" href="/assets/js/77.f71a8653.js"><link rel="prefetch" href="/assets/js/78.cb1a43c1.js"><link rel="prefetch" href="/assets/js/79.9e83573b.js"><link rel="prefetch" href="/assets/js/8.d5f02645.js"><link rel="prefetch" href="/assets/js/81.30de8c9b.js"><link rel="prefetch" href="/assets/js/82.4cb0a9a6.js"><link rel="prefetch" href="/assets/js/83.6bf25e9a.js"><link rel="prefetch" href="/assets/js/84.984a50d8.js"><link rel="prefetch" href="/assets/js/85.81009c16.js"><link rel="prefetch" href="/assets/js/86.3325dd7c.js"><link rel="prefetch" href="/assets/js/87.d9dea564.js"><link rel="prefetch" href="/assets/js/88.620d3c46.js"><link rel="prefetch" href="/assets/js/89.414375c4.js"><link rel="prefetch" href="/assets/js/9.f9048235.js"><link rel="prefetch" href="/assets/js/90.07be05fd.js"><link rel="prefetch" href="/assets/js/91.5b6132ee.js"><link rel="prefetch" href="/assets/js/92.efd68e29.js"><link rel="prefetch" href="/assets/js/93.4e37aebc.js"><link rel="prefetch" href="/assets/js/94.a306e6d9.js"><link rel="prefetch" href="/assets/js/95.ddbaa2e0.js"><link rel="prefetch" href="/assets/js/96.b4c98c12.js"><link rel="prefetch" href="/assets/js/97.3bca48ba.js"><link rel="prefetch" href="/assets/js/98.f52f497a.js"><link rel="prefetch" href="/assets/js/99.588f017d.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.dfeb017d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-1156296a><div data-v-1156296a><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-1156296a data-v-1156296a><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-4e82dffc data-v-1156296a data-v-1156296a><h3 class="title" data-v-4e82dffc data-v-4e82dffc>Awaken's blogs</h3> <p class="description" data-v-4e82dffc data-v-4e82dffc>Awaken's blogs</p> <label id="box" class="inputBox" data-v-4e82dffc data-v-4e82dffc><input type="password" value="" data-v-4e82dffc> <span data-v-4e82dffc>Konck! Knock!</span> <button data-v-4e82dffc>OK</button></label> <div class="footer" data-v-4e82dffc data-v-4e82dffc><span data-v-4e82dffc><i class="iconfont reco-theme" data-v-4e82dffc></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-4e82dffc>vuePress-theme-reco</a></span> <span data-v-4e82dffc><i class="iconfont reco-copyright" data-v-4e82dffc></i> <a data-v-4e82dffc><span data-v-4e82dffc>Awaken</span>
+            
+          <!---->
+          2024
+        </a></span></div></div> <div class="hide" data-v-1156296a><header class="navbar" data-v-1156296a><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/wtw.jpg" alt="Awaken's blogs" class="logo"> <span class="site-name">Awaken's blogs</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/BigData/" class="nav-link"><i class="undefined"></i>
+  BigData
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DAG/" class="nav-link"><i class="undefined"></i>
+  DAG
+</a></li><li class="dropdown-item"><!----> <a href="/categories/ES/" class="nav-link"><i class="undefined"></i>
+  ES
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Flink/" class="nav-link"><i class="undefined"></i>
+  Flink
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JUC/" class="nav-link"><i class="undefined"></i>
+  JUC
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JVM/" class="nav-link"><i class="undefined"></i>
+  JVM
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaSE/" class="nav-link"><i class="undefined"></i>
+  JavaSE
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/LeetCode/" class="nav-link"><i class="undefined"></i>
+  LeetCode
+</a></li><li class="dropdown-item"><!----> <a href="/categories/LINUX/" class="nav-link"><i class="undefined"></i>
+  LINUX
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DB/" class="nav-link"><i class="undefined"></i>
+  DB
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SSM/" class="nav-link"><i class="undefined"></i>
+  SSM
+</a></li><li class="dropdown-item"><!----> <a href="/categories/RK/" class="nav-link"><i class="undefined"></i>
+  RK
+</a></li><li class="dropdown-item"><!----> <a href="/categories/MQ/" class="nav-link"><i class="undefined"></i>
+  MQ
+</a></li><li class="dropdown-item"><!----> <a href="/categories/redis/" class="nav-link"><i class="undefined"></i>
+  redis
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spark/" class="nav-link"><i class="undefined"></i>
+  Spark
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringBoot/" class="nav-link"><i class="undefined"></i>
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/categories/projects/" class="nav-link"><i class="undefined"></i>
+  projects
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringCloud/" class="nav-link"><i class="undefined"></i>
+  SpringCloud
+</a></li><li class="dropdown-item"><!----> <a href="/categories/project1/" class="nav-link"><i class="undefined"></i>
+  project1
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Tools/" class="nav-link"><i class="undefined"></i>
+  Tools
+</a></li><li class="dropdown-item"><!----> <a href="/categories/arthas/" class="nav-link"><i class="undefined"></i>
+  arthas
+</a></li><li class="dropdown-item"><!----> <a href="/categories/deploy/" class="nav-link"><i class="undefined"></i>
+  deploy
+</a></li><li class="dropdown-item"><!----> <a href="/categories/k8s/" class="nav-link"><i class="undefined"></i>
+  k8s
+</a></li><li class="dropdown-item"><!----> <a href="/categories/mall/" class="nav-link"><i class="undefined"></i>
+  mall
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Python/" class="nav-link"><i class="undefined"></i>
+  Python
+</a></li><li class="dropdown-item"><!----> <a href="/categories/others/" class="nav-link"><i class="undefined"></i>
+  others
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spring/" class="nav-link"><i class="undefined"></i>
+  Spring
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Docs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/documents/" class="nav-link"><i class="undefined"></i>
+  documents
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-1156296a></div> <aside class="sidebar" data-v-1156296a><div class="personal-info-wrapper" data-v-828910c6 data-v-1156296a><img src="/wtw.jpg" alt="author-avatar" class="personal-img" data-v-828910c6> <h3 class="name" data-v-828910c6>
+    Awaken
+  </h3> <div class="num" data-v-828910c6><div data-v-828910c6><h3 data-v-828910c6>144</h3> <h6 data-v-828910c6>Articles</h6></div> <div data-v-828910c6><h3 data-v-828910c6>78</h3> <h6 data-v-828910c6>Tags</h6></div></div> <ul class="social-links" data-v-828910c6></ul> <hr data-v-828910c6></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/BigData/" class="nav-link"><i class="undefined"></i>
+  BigData
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DAG/" class="nav-link"><i class="undefined"></i>
+  DAG
+</a></li><li class="dropdown-item"><!----> <a href="/categories/ES/" class="nav-link"><i class="undefined"></i>
+  ES
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Flink/" class="nav-link"><i class="undefined"></i>
+  Flink
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JUC/" class="nav-link"><i class="undefined"></i>
+  JUC
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JVM/" class="nav-link"><i class="undefined"></i>
+  JVM
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaSE/" class="nav-link"><i class="undefined"></i>
+  JavaSE
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/LeetCode/" class="nav-link"><i class="undefined"></i>
+  LeetCode
+</a></li><li class="dropdown-item"><!----> <a href="/categories/LINUX/" class="nav-link"><i class="undefined"></i>
+  LINUX
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DB/" class="nav-link"><i class="undefined"></i>
+  DB
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SSM/" class="nav-link"><i class="undefined"></i>
+  SSM
+</a></li><li class="dropdown-item"><!----> <a href="/categories/RK/" class="nav-link"><i class="undefined"></i>
+  RK
+</a></li><li class="dropdown-item"><!----> <a href="/categories/MQ/" class="nav-link"><i class="undefined"></i>
+  MQ
+</a></li><li class="dropdown-item"><!----> <a href="/categories/redis/" class="nav-link"><i class="undefined"></i>
+  redis
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spark/" class="nav-link"><i class="undefined"></i>
+  Spark
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringBoot/" class="nav-link"><i class="undefined"></i>
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/categories/projects/" class="nav-link"><i class="undefined"></i>
+  projects
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringCloud/" class="nav-link"><i class="undefined"></i>
+  SpringCloud
+</a></li><li class="dropdown-item"><!----> <a href="/categories/project1/" class="nav-link"><i class="undefined"></i>
+  project1
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Tools/" class="nav-link"><i class="undefined"></i>
+  Tools
+</a></li><li class="dropdown-item"><!----> <a href="/categories/arthas/" class="nav-link"><i class="undefined"></i>
+  arthas
+</a></li><li class="dropdown-item"><!----> <a href="/categories/deploy/" class="nav-link"><i class="undefined"></i>
+  deploy
+</a></li><li class="dropdown-item"><!----> <a href="/categories/k8s/" class="nav-link"><i class="undefined"></i>
+  k8s
+</a></li><li class="dropdown-item"><!----> <a href="/categories/mall/" class="nav-link"><i class="undefined"></i>
+  mall
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Python/" class="nav-link"><i class="undefined"></i>
+  Python
+</a></li><li class="dropdown-item"><!----> <a href="/categories/others/" class="nav-link"><i class="undefined"></i>
+  others
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spring/" class="nav-link"><i class="undefined"></i>
+  Spring
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Docs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/documents/" class="nav-link"><i class="undefined"></i>
+  documents
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/recoluan" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-4e82dffc data-v-1156296a><h3 class="title" data-v-4e82dffc data-v-4e82dffc>MySQL-advance</h3> <!----> <label id="box" class="inputBox" data-v-4e82dffc data-v-4e82dffc><input type="password" value="" data-v-4e82dffc> <span data-v-4e82dffc>Konck! Knock!</span> <button data-v-4e82dffc>OK</button></label> <div class="footer" data-v-4e82dffc data-v-4e82dffc><span data-v-4e82dffc><i class="iconfont reco-theme" data-v-4e82dffc></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-4e82dffc>vuePress-theme-reco</a></span> <span data-v-4e82dffc><i class="iconfont reco-copyright" data-v-4e82dffc></i> <a data-v-4e82dffc><span data-v-4e82dffc>Awaken</span>
+            
+          <!---->
+          2024
+        </a></span></div></div> <div data-v-1156296a><main class="page"><section><div class="page-title"><h1 class="title">MySQL-advance</h1> <div data-v-1ff7123e><i class="iconfont reco-account" data-v-1ff7123e><span data-v-1ff7123e>Awaken</span></i> <i class="iconfont reco-date" data-v-1ff7123e><span data-v-1ff7123e>7/15/2021</span></i> <!----> <i class="tags iconfont reco-tag" data-v-1ff7123e><span class="tag-item" data-v-1ff7123e>MySQL</span></i></div></div> <div class="theme-reco-content content__default"><h2 id="_1-mysql安装"><a href="#_1-mysql安装" class="header-anchor">#</a> 1.MySQL安装</h2> <p>第一步：检查linux是否已经自带了mariadb分支，如果携带了，先卸载
+rpm -qa | grep mariadb
+rpm -e mariadb-libs-5.5.56-2.el7.x86_64 --nodeps
+第二步：准备mysql安装所需要的环境
+chmod -R 777 /tmp
+rpm -qa|grep libaio
+rpm -qa|grep net-tools
+第三步：安装mysql(需要按着顺序安装)	
+rpm -ivh mysql-community-common-xxx.rpm
+rpm -ivh mysql-community-libs-xxx.rpm
+rpm -ivh mysql-community-client-xxx.rpm
+rpm -ivh mysql-community-server-xxx.rpm</p> <p>第四步：先为root用户生成一个登录的临时密码</p> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code>mysqld --initialize --user<span class="token operator">=</span>mysql
+<span class="token function">cat</span> /var/log/mysqld.log: 查看临时密码:7aVAUIyMFC*I
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>第五步：启动mysql，首次登录及时修改root用户的密码
+systemctl start|stop|restart|status|enable|disable mysqld</p> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code>mysql -u root -p
+修改密码：ALTER <span class="token environment constant">USER</span> <span class="token string">'root'</span>@<span class="token string">'localhost'</span> IDENTIFIED BY <span class="token string">'123456'</span><span class="token punctuation">;</span> 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>第六步：检查mysql自带的字符集是啥？latin1不支持中文，utf8支持中文
+show variables like '%character%' ;
+如果出现了latin1，说明不支持中文，如果想让mysql支持中文，需要修改字符集。
+vim /etc/my.cnf
+[client]   （没有client就自己添加）
+default-character-set=utf8
+[mysqld]
+character-set-server=utf8
+collation-server=utf8_general_ci</p> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code>systemctl restart mysqld:重启 
+第七步：正常使用：
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>mysql的安装目录</p> <table><thead><tr><th>参数</th> <th>路径</th> <th>解释</th> <th>备注</th></tr></thead> <tbody><tr><td>--basedir</td> <td>/usr/bin</td> <td>相关命令目录</td> <td>mysqladmin mysqldump等命令</td></tr> <tr><td>--datadir</td> <td>/var/lib/mysql/</td> <td>mysql数据库文件的存放路径</td> <td></td></tr> <tr><td>--plugin-dir</td> <td>/usr/lib64/mysql/plugin</td> <td>mysql插件存放路径</td> <td></td></tr> <tr><td>--log-error</td> <td><strong>/var/log/mysqld.log</strong></td> <td>mysql错误日志路径</td> <td></td></tr> <tr><td>--pid-file</td> <td>/var/run/mysqld/mysqld.pid</td> <td>进程pid文件</td> <td></td></tr> <tr><td>--socket</td> <td>/var/lib/mysql/mysql.sock</td> <td>本地连接时用的unix套接字文件</td> <td></td></tr> <tr><td></td> <td>/usr/share/mysql</td> <td>配置文件目录</td> <td>mysql脚本及配置文件</td></tr> <tr><td></td> <td>/etc/systemd/system/multi-user.target.wants/mysqld.service</td> <td>服务启停相关脚本</td> <td></td></tr> <tr><td></td> <td><strong>/etc/my.cnf</strong></td> <td>mysql配置文件</td> <td>cat /etc/my.cnf</td></tr></tbody></table> <h2 id="_2-mysql用户管理和权限管理"><a href="#_2-mysql用户管理和权限管理" class="header-anchor">#</a> 2.MySQL用户管理和权限管理</h2> <p><strong>用户管理</strong>：
+用户添加:
+create user 用户名 identified by '密码';
+用户删除:
+drop user 用户名;
+注意：不要使用delete from user where :删除的不彻底
+用户修改:
+修改用户信息之后，一定要刷新权限。
+update user set 字段1=值1,字段2=值2 where条件
+flush privileges;
+用户查询:
+select host,user,authentication_string from mysql.user;</p> <p>​			  host:  表示在哪个ip的机子上的可以连接当前mysql服务器
+​			  localhost: 表示在mysql服务器所在linux系统可以使用客户端连接
+​			  %        : 表示在任意客户端都可以连接当前mysql服务器
+​			  ip       ：表示在指定的ip这台机子上使用客户端连接当前mysql服务器
+​			  主机名   : 表示在指定的ip这台机子上使用客户端连接当前mysql服务器</p> <p>​			user: 当前用户名
+​			authentication_string:密码，password('明文')</p> <p>防火墙操作
+systemctl start|status|stop|enable|disable firewalld</p> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code>firewall-cmd --add-port<span class="token operator">=</span><span class="token number">3306</span>/tcp --permanent:放开某个端口号
+firewall-cmd --reload:重新加载
+firewall-cmd --list-all:查看防火墙放开的端口号
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>权限管理：	<br>
+授予权限：
+语法：grant 权限1,权限2,…权限n on 数据库名称.表名称 to 用户名@用户地址 identified by ‘连接口令’;
+案例1：
+create user liangchun identified by '123456';
+grant insert,select,update on test.* to liangchun@'%';
+案例2： 	
+grant all privileges on <em>.</em> to yangqun@'%' identified by '123456';
+收回权限：
+语法：revoke 权限1,权限2,…权限n on 数据库名称.表名称 from 用户名@用户地址;
+案例1:
+revoke insert,select,update on test.* from liangchun@'%';
+案例2:
+revoke all privileges on <em>.</em> from yangqun@'%';
+查看某用户的全局权限：select  * from mysql.user ;</p> <h2 id="_3-mysql会话"><a href="#_3-mysql会话" class="header-anchor">#</a> 3.MySQL会话</h2> <p>局部会话：在局部会话中设置的变量只对当前窗口起作用。
+读取                                          				修改
+show variables like '%变量名%';              	  set 变量名=值
+show session variables like '%变量名%';      set session 变量名=值</p> <p>全局会话：在全局会话中设置的变量只对所有窗口起作用。
+show global variables like '%变量名%';       	set global 变量名=值</p> <p>无论是局部变量还是全局变量，等mysql服务器重启之后，这些设置都会失效，如果想让这些设置永久生效，在
+mysql配置文件中配置./etc/my.cnf</p> <h2 id="_4-查询案例"><a href="#_4-查询案例" class="header-anchor">#</a> 4.查询案例</h2> <h3 id="where和having的区别"><a href="#where和having的区别" class="header-anchor">#</a> where和having的区别</h3> <p>where:</p> <ul><li>where是一个约束声明，使用where来约束来自数据库的数据</li> <li>where是在结果返回之前起作用的</li> <li>where中不能使用聚合函数</li></ul> <p>having:</p> <ul><li>having是一个过滤声明</li> <li>在查询返回结果集以后，对查询结果进行的过滤操作</li> <li>在having中可以使用聚合函数</li></ul> <blockquote><p>分组查询时，select 的列必须要是group by后面的字段，或者函数(count *)</p></blockquote> <ol><li>求每个部门年龄最大的人</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>select * from mytbl2 t1 inner join(select dept,max(age) max_age from mytbl2 group by dept) tmp on t1.age = tmp.max_age and t1.dept = tmp.dept
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ol start="2"><li>求每个部门年龄第二大的人</li></ol> <p>mysql5.5版本的SQL_MODE不严格：</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>mysql5.7版本的SQL_MODE比较严格,严格是好事，错误的SQL及脏数据就可以避免掉了。</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><div class="language- extra-class"><pre><code>ONLY_FULL_GROUP_BY: 一旦在SQL语句中使用了group by分组，那么select 后面的列要么是出现在group by之后,要么是聚合函数(count、max、min、avg、sum)
+STRICT_TRANS_TABLES: 表示开启严格模式,控制着数据的格式。
+
+NO_ZERO_IN_DATE: 表示不能在月份和日 这两个字段出现纯0,但是：0000-00-00例外。
+                 
+NO_ZERO_DATE:    表示在年、月和日 这三个字段不同同时全为0,0000-00-00。
+
+ERROR_FOR_DIVISION_BY_ZERO: 设置了这一项之后，除数不能为0.
+
+NO_AUTO_CREATE_USER: 禁止GRANT创建密码为空的用户
+NO_ENGINE_SUBSTITUTION: 如果需要的存储引擎被禁用或不存在，那么抛出错误。不设置此值时，用默认的存储引擎替代
+</code></pre></div><h2 id="_5-mysql的架构"><a href="#_5-mysql的架构" class="header-anchor">#</a> 5.MySQL的架构</h2> <p><img src="https://lskyimage-1306894954.cos.ap-nanjing.myqcloud.com/2021/11/16/45dda25b300cb.png" alt="MySQL架构.png"></p> <h3 id="_1-解析器"><a href="#_1-解析器" class="header-anchor">#</a> 1.解析器</h3> <p>手写的SQL:</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>select  distinct 列1,列2,
+from 表名1
+left join 表2
+on 连接条件
+where 过滤条件
+group by 分组字段1，分组字段2
+having 聚合函数进一步过滤
+order by 排序字段1，排序字段2
+limit offset,size
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>机读的SQL:</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>from 表1
+on 连接条件
+join 表2
+where 过滤条件
+group by 分组字段1，分组字段2
+having 聚合函数进一步过滤
+select  distinct 列1,列2
+order by 排序字段1，排序字段2
+limit offset,size
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h3 id="_2-优化器-optimizer"><a href="#_2-优化器-optimizer" class="header-anchor">#</a> 2.优化器(optimizer)</h3> <blockquote><p>explain+SQL查询语句：查看SQL语句的执行路径</p></blockquote> <h3 id="_3-存储引擎"><a href="#_3-存储引擎" class="header-anchor">#</a> 3.存储引擎</h3> <ol><li>查看mysql支持哪些数据引擎</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>show engines;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>MyISAM引擎和Innodb引擎区别：</p> <table><thead><tr><th></th> <th>MyISAM引擎</th> <th>Innodb引擎</th></tr></thead> <tbody><tr><td>是否支持事务</td> <td>No</td> <td>Yes</td></tr> <tr><td>行表锁</td> <td>表锁，即使操作一条记录也会锁住整个表，并发弱</td> <td>行锁，操作时只锁某一行，并发强</td></tr> <tr><td>是否支持外键</td> <td>No</td> <td>Yes</td></tr> <tr><td>是否支持XA协议</td> <td>NO</td> <td>Yes</td></tr> <tr><td>读的性能</td> <td>高</td> <td>低</td></tr> <tr><td>是否支持聚簇索引</td> <td>No</td> <td>Yes</td></tr> <tr><td>数据的组织结构</td> <td>3个文件</td> <td>2个文件</td></tr> <tr><td>是否支持MVCC机制</td> <td>No</td> <td>Yes</td></tr> <tr><td>适用场景</td> <td>从机slave</td> <td>主机master</td></tr></tbody></table> <ol start="2"><li>每一张对应一个数据库引擎</li> <li>如何查看某张表的数据库引擎</li></ol> <p>https://dev.mysql.com/doc/refman/5.7/en/storage-engines.html</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>show table status from 数据库名;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ol start="4"><li>如何修改一张表对应的数据库引擎</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>alter table 表名 engine = '数据库引擎';
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ol start="5"><li>查看数据库及表存在磁盘的哪个目录</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>show variables like 'datadir';
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ol start="6"><li><p>Innodb与MyISAM引擎底层存储结构</p> <p>Innodb引擎:</p> <p>​	xxx.frm:存储表结构</p> <p>​	xxx.ibd:存储表数据和索引</p> <p>MyISAM引擎:</p> <p>​	xxx.frm:存储表结构</p> <p>​	xxx.MYD:存储的表数据</p> <p>​    xxx.MYI:存储的表索引</p></li> <li><p>mysql的数据库引擎支持自定义</p></li></ol> <p>https://dev.mysql.com/doc/internals/en/custom-engine.html</p> <h3 id="_4-缓存"><a href="#_4-缓存" class="header-anchor">#</a> 4.缓存</h3> <p>查看SQL的是否走了查询缓存及SQL语句的消耗时间</p> <p>1.开启查询缓存</p> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code><span class="token function">vim</span> /etc/my.cnf
+<span class="token assign-left variable">query_cache_type</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">(</span>mysqld标签内<span class="token punctuation">)</span>
+systemctl restart mysqld
+show variables like <span class="token string">'query_cache%'</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>2.开启查询，执行计划</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>show variables like '%profiling%';  默认没有开启
+set profiling=1;  临时开启
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>3.执行语句两次：select * from mydbl2 where id=1;</p> <p>4.执行show profiles;  查看最近几条SQL语句的消耗时间</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>show profiles;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>5.确认某条SQL语句是否真的走了查询缓存</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>show profile block io,cpu for query 3;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><blockquote><p>如果想让一条SQL语句能从查询缓存中得到数据需要满足什么条件？</p> <ol><li>要求这条查询SQL肯定不是第一次执行。</li> <li>要求后面执行的查询SQL要和前面的查询SQL保持完全一致。[大小写一致、空格也不要多]</li> <li>在两次查询之间不能有增删改语句。</li></ol></blockquote> <h2 id="_6-索引"><a href="#_6-索引" class="header-anchor">#</a> 6.索引</h2> <p>定义：一种排好序的数据结构，便于快速查询[定位]某些数据。</p> <p>优势：</p> <ol><li>减少IO操作。</li> <li>减少CPU操作。</li></ol> <p>劣势：</p> <ol><li>索引也是一种数据结构，本身也是占空间大小。不是说为表创建的索引越多越好。</li> <li>创建了索引之后，降低对表增删改速度。</li></ol> <p>索引：底层数据结构用的是<strong>B+Ttree</strong></p> <p>ES:倒排索引[站内搜索]</p> <h3 id="b-ttree相比于btree的优势"><a href="#b-ttree相比于btree的优势" class="header-anchor">#</a> <strong>B+Ttree相比于BTree的优势：</strong></h3> <ol><li>B+Ttree根节点和枝节点没有存储行数据的地址值，只有叶子节点存储数据，每次加载时，一片叶子能够存储更多的索引节点。</li> <li>B+Ttree叶子节点有指向相邻叶子节点的双向指针，便于范围查询。</li> <li>根据左闭右开区间来检索数据</li></ol> <p>1）B+ 树和 B 树的差异</p> <p>（1）B+树中非叶子节点的关键字也会同时存在子节点中，并且是在子节点中所有关键字的最大值（或最小）。</p> <p>（2）B+树中非叶子节点仅用于索引，不保存数据记录，跟记录有关的信息都放在叶子节点中。而B树中，非叶子节点既保存索引，也保存数据记录。</p> <p>（3）B+树中所有关键字都在叶子节点出现，叶子节点构成一个有序链表，而且叶子节点本身按照关键字的大小从小到大顺序链接。</p> <p><img src="https://lskyimage-1306894954.cos.ap-nanjing.myqcloud.com/2021/12/24/e48e3fa8a6542.png" alt="图片1.png"></p> <blockquote><p>举个例子：假设一条记录是 1K，一个叶子节点（一页）可以存储 16 条记录。非叶 子节点可以存储多少个指针？ 假设索引字段是 bigint 类型，长度为 8 字节。指针大小在 InnoDB 源码中设置为 6 字节，这样一共 14 字节。非叶子节点（一页）可以存储 16384/14=1170 个这样的 单元（键值+指针），代表有 1170 个指针。 树 深 度 为 2 的 时 候 ， 有 1170^2 个 叶 子 节 点 ， 可 以 存 储 的 数 据 为 1170<em>1170</em>16=21902400。也就是说，一张 2000 万左右的表，查询 数据最多需要访问 3 次磁盘。 所以在 InnoDB 中 B+ 树深度一般为 1-3 层，它就能满足千万级的数据存储。</p></blockquote> <p><img src="https://lskyimage-1306894954.cos.ap-nanjing.myqcloud.com/2021/12/24/77c9c4f840a60.png" alt="图片2.png"></p> <h3 id="mysql索引"><a href="#mysql索引" class="header-anchor">#</a> MySQL索引</h3> <h4 id="聚簇索引与非聚簇索引"><a href="#聚簇索引与非聚簇索引" class="header-anchor">#</a> 聚簇索引与非聚簇索引</h4> <ul><li>聚簇索引并不是一种单独的索引类型，而是一种数据存储方式</li> <li>索引键值的逻辑顺序跟表数据行的物理存储顺序一致</li> <li>在 InnoDB 里面，它组织数据的方式叫做叫做（聚集）索引组织表（clustered index organize table），所以主键索引是聚簇索引，非主键都是非聚簇索引</li></ul> <p><img src="https://lskyimage-1306894954.cos.ap-nanjing.myqcloud.com/2021/11/17/932ecd86b238a.png" alt="聚簇索引.png"></p> <p>如果 InnoDB 里面主键是这样存储的，那主键之外的索引，比如我们在 name 字段 上面建的普通索引，又是怎么存储和检索数据的呢？</p> <p><img src="https://lskyimage-1306894954.cos.ap-nanjing.myqcloud.com/2021/11/17/dcd56724843ac.png" alt="非主键索引.png"></p> <p>如果使用辅助索引查询，会根据主键值在主键索引中查询，最终取得数据。</p> <p>比如我们用 name 索引查询 name= 'Qingshan'，它会在叶子节点找到主键值，也就是 id=1，然后再到主键索引的叶子节点拿到数据。一个问题，如果一张表没有主键怎么办？</p> <p>1、 如果我们定义了主键(PRIMARY KEY)，那么 InnoDB 会选择主键作为聚集索引。</p> <p>2、如果没有显式定义主键，则 InnoDB 会选择第一个不包含有 NULL 值的唯一索引 作为主键索引。</p> <p>3、如果也没有这样的唯一索引，则 InnoDB 会选择内置 6 字节长的 ROWID 作为隐藏的聚集索引，它会随着行记录的写入而主键递增。(_rowid:隐含、自增的)</p> <p>4、select _rowid from 表名;</p> <p><strong>聚簇索引的好处：</strong></p> <ul><li>按照聚簇索引排列顺序，查询显示一定范围数据的时候，由于数据都是紧密相连，数据库不用从多个数据块中提取数据，所以节省了大量的io操作。</li></ul> <p><strong>聚簇索引的限制：</strong></p> <ul><li><p>对于MySQL数据库目前只有<strong>innodb</strong>数据引擎支持聚簇索引，而Myisam并不支持聚簇索引。</p></li> <li><p>由于数据物理存储排序方式只能有一种，所以每个MySQL的表只能有一个聚簇索引。一般情况下就是该表的主键。</p></li> <li><p>为了充分利用聚簇索引的聚簇的特性，所以innodb表的主键列<strong>尽量选用有序的顺序id</strong>，而不建议用无序的id，比如uuid这种。</p></li></ul> <h4 id="myisam"><a href="#myisam" class="header-anchor">#</a> MyISAM</h4> <p>在 MyISAM 里面，另外有两个文件：</p> <p>一个是.MYD 文件，D 代表 Data，是 MyISAM 的数据文件，存放数据记录,比如我们的 user_myisam 表的所有的表数据。</p> <p>一个是.MYI 文件，I 代表 Index，是 MyISAM 的索引文件，存放索引，比如我们在 id 字段上面创建了一个主键索引，那么主键索引就是在这个索引文件里面。</p> <p>也就是说，在 MyISAM 里面，索引和数据是两个独立的文件。 那我们怎么根据索引找到数据呢？ MyISAM 的 B+Tree 里面，叶子节点存储的是数据文件对应的磁盘地址。所以从索引文件.MYI 中找到键值后，会到数据文件.MYD 中获取相应的数据记录。</p> <p><img src="https://lskyimage-1306894954.cos.ap-nanjing.myqcloud.com/2021/11/17/9176b86c0e504.png" alt="MyISAM.png"></p> <p>数据和索引是分开存放的。(<strong>MyISAM引擎支持主键索引，但是没有聚簇索引(聚簇索引数据和索引在一起。只有Innodb引擎有聚簇索引</strong>))</p> <h4 id="小结"><a href="#小结" class="header-anchor">#</a> 小结</h4> <p>只有InnoDB引擎支持聚簇索引，聚簇索引索引键值的逻辑顺序跟表数据行的物理存储顺序是一致的。便于范围查询。</p> <p>MyISAM引擎：只有主键索引，没有聚簇索引。</p> <p>确切的说是：</p> <ol><li><p>在Innodb引擎中，主键索引也即聚簇索引。</p></li> <li><p>在MyISAM引擎中，主键索引和辅助索引的搜索是一样的。</p></li> <li><p>在MyISAM引擎中，没有聚簇索引。</p></li> <li><p>在Innodb引擎中，主键索引(聚簇索引)和辅助索引(存储的是索引值和主键值)的搜索是不太一样。</p></li> <li><p>只有Innodb引擎支持回表查询。(辅助索引存储的是辅助索引和主键值：上图的Innodb就是回表查询)</p></li></ol> <h3 id="mysql索引分类"><a href="#mysql索引分类" class="header-anchor">#</a> MySQL索引分类</h3> <h4 id="单值索引"><a href="#单值索引" class="header-anchor">#</a> 单值索引</h4> <p>即一个索引只包含单个列，一个表可以有多个单列索引</p> <p>语法：</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>随表一起建索引：
+CREATE TABLE customer (
+  id INT(10) UNSIGNED  AUTO_INCREMENT ,
+  customer_no VARCHAR(200),
+  customer_name VARCHAR(200),
+  PRIMARY KEY(id),
+  KEY (customer_name)
+);
+单独建单值索引：
+CREATE INDEX idx_customer_name ON customer(customer_name); 
+删除索引：
+DROP INDEX idx_customer_name  on customer;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="唯一索引"><a href="#唯一索引" class="header-anchor">#</a> 唯一索引</h4> <p>索引列的值必须唯一，但允许有空值</p> <p>语法：</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>随表一起建索引：
+CREATE TABLE customer (
+  id INT(10) UNSIGNED  AUTO_INCREMENT ,
+  customer_no VARCHAR(200),
+  customer_name VARCHAR(200),
+  PRIMARY KEY(id),
+  KEY (customer_name),
+  UNIQUE (customer_no)
+);
+单独建唯一索引：
+CREATE UNIQUE INDEX idx_customer_no ON customer(customer_no); 
+删除索引：
+DROP INDEX idx_customer_no on customer ;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h4 id="主键索引"><a href="#主键索引" class="header-anchor">#</a> 主键索引</h4> <p>设定为主键后数据库会自动建立索引，innodb为聚簇索引</p> <p>语法：</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>随表一起建索引：
+CREATE TABLE customer (
+  id INT(10) UNSIGNED  AUTO_INCREMENT ,
+  customer_no VARCHAR(200),
+  customer_name VARCHAR(200),
+  PRIMARY KEY(id) 
+);
+CREATE TABLE customer2 (
+  id INT(10) UNSIGNED   ,
+  customer_no VARCHAR(200),
+  customer_name VARCHAR(200) 
+);
+单独建主键索引：
+ALTER TABLE customer2 add PRIMARY KEY customer2(id);  
+删除主键索引：
+ALTER TABLE customer2 drop PRIMARY KEY ;  
+修改主键索引：
+必须先删除掉(drop)原索引，再新建(add)索引
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h4 id="复合索引"><a href="#复合索引" class="header-anchor">#</a> 复合索引</h4> <p>即一个索引包含多个列</p> <p>语法：</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>随表一起建索引：
+CREATE TABLE customer (
+  id INT(10) UNSIGNED  AUTO_INCREMENT ,
+  customer_no VARCHAR(200),
+  customer_name VARCHAR(200),
+  PRIMARY KEY(id),
+  KEY (customer_name),
+  UNIQUE (customer_name),
+  KEY (customer_no,customer_name)
+);
+单独建索引：
+CREATE INDEX idx_customer_no_name ON customer(customer_no,customer_name); 
+删除索引：
+DROP INDEX idx_customer_no_name  on customer ;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h3 id="基本语法"><a href="#基本语法" class="header-anchor">#</a> 基本语法</h3> <ol><li>创建</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>create [UNIQUE] index indexName on mytable(mytable.name); #这种方法创建必须指定索引名字
+alter mytable add [UNIQUE] index [indexName] (列名); #这种方法创建可以不用指定名字
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol start="2"><li>删除</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>drop index [indexName] on mytable;
+Alter table mytable drop index index_name;
+alter table mytable drop primary key
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol start="3"><li>查看</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>show index from table_name
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ol start="4"><li>ALTER命令</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>ALTER TABLE tbl_name ADD PRIMARY KEY (column_list): 该语句添加一个主键，这意味着索引值必须是唯一的，且不能为NULL。
+ALTER TABLE tbl_name ADD UNIQUE index_name (column_list): 这条语句创建索引的值必须是唯一的（除了NULL外，NULL可能会出现多次）。
+ALTER TABLE tbl_name ADD INDEX index_name (column_list): 添加普通索引，索引值可出现多次。
+ALTER TABLE tbl_name ADD FULLTEXT index_name (column_list):该语句指定了索引为 FULLTEXT ，用于全文索引。了解
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>注意点：</strong></p> <ol><li>唯一索引：通常针对手机号、用户名(非真实姓名)、身份证号、员工编号等字段创建</li> <li>主键索引：建表时，表主键指定后、主键索引自动创建</li> <li>一个表一旦建立主键之后后期几乎不会改动，如果要删除一个表的主键，必须保证该主键不能是自增的主键，否则删除不了。</li></ol> <h3 id="索引创建的情况分析"><a href="#索引创建的情况分析" class="header-anchor">#</a> 索引创建的情况分析</h3> <p><strong>需要创建索引的情况：</strong></p> <ol><li>主键自动建立唯一索引</li> <li>频繁作为查询条件的字段应该创建索引(where后面的字段)</li> <li>与其他表有关联的字段，外键关系建立索引</li> <li>单键/组合索引的选择问题(在高并发下倾向创建组合索引)</li> <li>查询中排序的字段，排序字段通过索引去访问将大大提高排序速度</li> <li>查询中统计或者分组字段</li></ol> <p><strong>不需要创建索引的情况：</strong></p> <ol><li>表记录太少(300万数据时MySQL性能开始下降，这时就可以开始优化了)</li> <li>经常增删改的表(提高查询的速度，同时会降低更新表的速度，因为要同时保存索引文件)</li> <li>where条件里用不到的字段不创建索引(索引也是占空间的)</li> <li>区分度低的字段：例如 性别</li></ol> <h2 id="_7-索引优化分析-explain、desc"><a href="#_7-索引优化分析-explain、desc" class="header-anchor">#</a> 7.索引优化分析_explain、desc</h2> <p>官网介绍 https://dev.mysql.com/doc/refman/5.7/en/explain-output.html</p> <p><strong>作用：</strong></p> <ol><li>表的读取顺序</li> <li>数据读取操作的操作类型</li> <li>哪些索引可以使用</li> <li>哪些索引被实际使用</li> <li>表之间的引用</li> <li>每张表有多少行被优化器查询</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>Explain + SQL语句
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><strong>输出：</strong></p> <p><strong>id</strong>:   	查询的序列号，包含一组数字，表示查询中执行select子句或操作表的顺序(id相同：顺序由上至下，id不同：id越大优先级越高)
+select_type：查询的类型，主要是用于区别普通查询、联合查询、子查询等的复杂查询
+table	       ：显示这一行的数据是关于哪张表的
+partitions   :匹配的分区,一般不用,直接忽略
+<strong>type</strong>:  联接类型
+possible_keys:可能用到的索引
+<strong>key</strong> :   实际选择的索引
+<strong>key_len</strong>:  所选键的长度,值越大越好 index(name,rank,age)
+ref:        显示索引的哪一列被使用了
+<strong>rows</strong>:    估计要检查的行[估算值],越小越好。
+filtered	     按表条件过滤的行百分比[不重要]
+<strong>Extra</strong>:   附加信息,尤其要注意出现using filesort的情况,要尽量避免</p> <h2 id="_8-explain重要字段解释"><a href="#_8-explain重要字段解释" class="header-anchor">#</a> 8.explain重要字段解释</h2> <h3 id="id"><a href="#id" class="header-anchor">#</a> <strong>id</strong>:</h3> <p>id相同：顺序由上至下，id不同：id越大优先级越高</p> <h3 id="type值"><a href="#type值" class="header-anchor">#</a> type值：</h3> <p>system &gt; const &gt; eq_ref &gt; ref &gt; range &gt; index &gt; all</p> <h3 id="key-len-越大越好"><a href="#key-len-越大越好" class="header-anchor">#</a> <strong>key_len:</strong>  越大越好</h3> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>explain 表名;
+desc 表名;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>​      索引列允许为null:                +1
+​      索引列动态类型(varchar、text):   +2</p> <p>​      tinyint:                         1
+smallint:                       2
+mediumint:                 3
+int:                                4
+long/float/double:     8</p> <div class="language- extra-class"><pre><code>字符串类型的key_len值(varchar,char)： latin1: 1  gbk:2 utf8:3 utf84: 4
+</code></pre></div><h3 id="extra列"><a href="#extra列" class="header-anchor">#</a> Extra列：</h3> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>using index:          	使用到了覆盖索引
+using index condition:  使用到了索引下推(Index condition pushdown:简称ICP)
+
+using filesort:     排序字段没有用到索引,使用了文件外排序：需要优化
+					如果出现了where 过滤和order by排序的话，要为where后边的条件和order by建立组合索引。
+                    存在索引失效的情况：
+                       1.没有使用过滤条件
+                       2.过滤条件是limit过滤也有可能失效
+                       3.尽量使用where过滤，不会失效
+                       
+using temporary:    分组字段没有用到索引
+					分组必排序：如果出现了where过滤和order by排序的话，要为where后边的条件和group by建立组合索引。
+							  group by和order by的唯一区别：group by没有过滤条件，也可以用上索引。
+using join buffer:    	连表字段没有用到索引
+using where:          	使用了where 进行过滤，有的时候不可避免。
+impossible where:     	SQL语句有问题
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h3 id="rows-越小越好"><a href="#rows-越小越好" class="header-anchor">#</a> rows：越小越好</h3> <p>rows列显示MySQL认为它执行查询时必须检查的行数。值越小越好,速度越快,注意这是个预估值，因为这是用explain关键字模拟执行的，不是真实执行的。</p> <p>谁先执行谁就是驱动表，建议使用小表作为驱动表，因为驱动表避免不了全表扫描。</p> <blockquote><p>有索引的时候，数据库也不一定会走索引。数据库的优化器会根据具体情况，选择执行效率高的SQL执行路径执行。
+也即走了索引不一定比不走索引的SQL快。</p></blockquote> <h2 id="_9-查询优化-准备"><a href="#_9-查询优化-准备" class="header-anchor">#</a> 9.查询优化_准备</h2> <h3 id="连表概念"><a href="#连表概念" class="header-anchor">#</a> 连表概念</h3> <ol><li>横向连接</li></ol> <p>形式1：</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>select * from 表1 
+left|right|inner|full join 表2 
+on 连接条件
+where 过滤条件
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>形式2：（笛卡尔积，5.7以后底层优化，where转化为inner join）</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>select *
+from 表1,表2
+where 表1.列=表2.列
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol start="2"><li>纵向连接</li></ol> <div class="language- line-numbers-mode"><pre class="language-text"><code>select 列1,列2
+from 表1
+union all | union
+select 列1,列2
+from 表2
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="表数据准备"><a href="#表数据准备" class="header-anchor">#</a> 表数据准备</h3> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>CREATE TABLE `dept` (
+	 `id` INT(11) NOT NULL AUTO_INCREMENT,
+	 `deptName` VARCHAR(30) DEFAULT NULL,
+	 `address` VARCHAR(40) DEFAULT NULL,
+	 `ceo` INT NULL ,
+	 PRIMARY KEY (`id`)
+	) ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `emp` (
+	 `id` INT(11) NOT NULL AUTO_INCREMENT,
+	 `empno` INT NOT NULL ,
+	 `name` VARCHAR(20) DEFAULT NULL,
+	 `age` INT(3) DEFAULT NULL,
+	 `deptId` INT(11) DEFAULT NULL,
+	 PRIMARY KEY (`id`)
+	 #CONSTRAINT `fk_dept_id` FOREIGN KEY (`deptId`) REFERENCES `t_dept` (`id`)
+	) ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h3 id="函数"><a href="#函数" class="header-anchor">#</a> 函数</h3> <blockquote><p>存储过程：</p> <ol><li>存储过程声明</li> <li>存储过程调用</li></ol> <p>函数：</p> <ol><li>函数声明</li> <li>函数调用</li></ol></blockquote> <h4 id="开启函数设置"><a href="#开启函数设置" class="header-anchor">#</a> 开启函数设置</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>show variables like 'log_bin_trust_function_creators';
+set global log_bin_trust_function_creators=1;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>配置文件的[mysqld] 加上log_bin_trust_function_creators=1</p> <h4 id="随机字符串函数"><a href="#随机字符串函数" class="header-anchor">#</a> 随机字符串函数</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>DELIMITER $$  #将停止字符设置为$$，防止粘贴在linux时遇到;直接停止执行了
+CREATE FUNCTION rand_string(n INT) RETURNS VARCHAR(255)
+BEGIN    
+DECLARE chars_str VARCHAR(100) DEFAULT 'abcdefghijklmnopqrstuvwxyzABCDEFJHIJKLMNOPQRSTUVWXYZ';
+DECLARE return_str VARCHAR(255) DEFAULT '';
+DECLARE i INT DEFAULT 0;
+WHILE i &lt; n DO  
+SET return_str =CONCAT(return_str,SUBSTRING(chars_str,FLOOR(1+RAND()*52),1));  
+SET i = i + 1;
+END WHILE;
+RETURN return_str;
+END $$
+DELIMITER ;  #将停止字符串改回来 
+#假如要删除
+drop function rand_string;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h4 id="随机部门编号"><a href="#随机部门编号" class="header-anchor">#</a> 随机部门编号</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>#用于随机产生多少到多少的编号
+DELIMITER $$
+CREATE FUNCTION  rand_num (from_num INT ,to_num INT) RETURNS INT(11)
+BEGIN   
+DECLARE i INT DEFAULT 0;  
+SET i = FLOOR(from_num +RAND()*(to_num - from_num+1))   ;
+RETURN i;  
+END$$ 
+DELIMITER ;
+#假如要删除
+drop function rand_num;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="emp表中插入数据的存储过程"><a href="#emp表中插入数据的存储过程" class="header-anchor">#</a> emp表中插入数据的存储过程</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>DELIMITER $$
+CREATE PROCEDURE  insert_emp(  START INT ,  max_num INT )
+BEGIN  
+DECLARE i INT DEFAULT 0;   
+ SET autocommit = 0;    #设置手动提交事务
+ REPEAT  #循环
+ SET i = i + 1;  #赋值
+ INSERT INTO emp (empno, NAME ,age ,deptid ) VALUES ((START+i),rand_string(6),rand_num(30,50),rand_num(1,10000));  
+ UNTIL i = max_num  
+ END REPEAT;  
+ COMMIT;  #提交事务
+END$$
+DELIMITER ;
+#删除
+drop PROCEDURE insert_emp;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h4 id="dept表插入数据的存储过程"><a href="#dept表插入数据的存储过程" class="header-anchor">#</a> dept表插入数据的存储过程</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>DELIMITER $$
+CREATE PROCEDURE `insert_dept`(  max_num INT )
+BEGIN  
+DECLARE i INT DEFAULT 0;   
+ SET autocommit = 0;    
+ REPEAT  
+ SET i = i + 1;  
+ INSERT INTO dept ( deptname,address,ceo ) VALUES (rand_string(8),rand_string(10),rand_num(1,500000));  
+ UNTIL i = max_num  
+ END REPEAT;  
+ COMMIT; 
+END$$
+DELIMITER ;
+#删除
+drop PROCEDURE insert_dept;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h4 id="存储过程调用"><a href="#存储过程调用" class="header-anchor">#</a> 存储过程调用</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>#执行
+CALL insert_dept(100000);
+#执行存储过程，往emp表添加50万条数据
+CALL insert_emp(100000,500000); 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="批量删除索引的存储过程"><a href="#批量删除索引的存储过程" class="header-anchor">#</a> 批量删除索引的存储过程</h4> <h5 id="_1-找到一个表的所有索引"><a href="#_1-找到一个表的所有索引" class="header-anchor">#</a> 1.找到一个表的所有索引</h5> <blockquote><p>系统表information_schema.statistics中</p> <p>table_schema:数据库名</p> <p>table_name:表名</p> <p>seq_in_index=1:组合索引去重</p></blockquote> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>select index_name from information_schema.statistics where table_schema='mytbl' and table_name='t_emp' and index_name!='primary' and seq_in_index=1;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h5 id="_2-取出表的所有索引"><a href="#_2-取出表的所有索引" class="header-anchor">#</a> 2.取出表的所有索引</h5> <blockquote><p>使用 CURSOR 游标</p></blockquote> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>cursor 游标名 for select index_name from information_schema.statistics where table_schema='mytbl' and table_name='t_emp' and index_name!='primary' and seq_in_index=1
+open 游标名
+FETCH 游标名 INTO 变量;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h5 id="_3-把字符串类型的索引名称转为sql语句"><a href="#_3-把字符串类型的索引名称转为sql语句" class="header-anchor">#</a> 3.把字符串类型的索引名称转为SQL语句</h5> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>PREPARE alter table t_emp drop index '变量'  #预编译语句
+execute sql语句;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h5 id="_4-创建过程"><a href="#_4-创建过程" class="header-anchor">#</a> 4.创建过程</h5> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>DELIMITER $$
+CREATE  PROCEDURE `proc_drop_index`(dbname VARCHAR(200),tablename VARCHAR(200))
+BEGIN
+	DECLARE done INT DEFAULT 0;
+	DECLARE ct INT DEFAULT 0;
+	DECLARE _index VARCHAR(200) DEFAULT '';
+	DECLARE _cur CURSOR FOR SELECT index_name FROM information_schema.STATISTICS WHERE table_schema=dbname AND table_name=tablename AND seq_in_index=1 AND index_name &lt;&gt;'PRIMARY'  ;
+#每个游标必须使用不同的declare continue handler for not found set done=1来控制游标的结束
+	DECLARE CONTINUE HANDLER FOR NOT FOUND set done=2 ;      
+#若没有数据返回,程序继续,并将变量done设为2
+	OPEN _cur;
+	FETCH _cur INTO _index;
+	WHILE  _index&lt;&gt;'' DO 
+			SET @str = CONCAT(&quot;drop index &quot; , _index , &quot; on &quot; , tablename ); 
+			PREPARE sql_str FROM @str ;
+			EXECUTE  sql_str;
+			DEALLOCATE PREPARE sql_str;
+			SET _index=''; 
+			FETCH _cur INTO _index; 
+	END WHILE;
+CLOSE _cur;
+END$$
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><h5 id="_5-调用"><a href="#_5-调用" class="header-anchor">#</a> 5.调用</h5> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>CALL proc_drop_index(&quot;mytbl&quot;,&quot;emp&quot;);
+CALL proc_drop_index(&quot;mytbl&quot;,&quot;dept&quot;);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="_10-查询优化-单表"><a href="#_10-查询优化-单表" class="header-anchor">#</a> 10.查询优化_单表</h2> <h3 id="索引失效情况"><a href="#索引失效情况" class="header-anchor">#</a> 索引失效情况</h3> <h4 id="_1-全值匹配"><a href="#_1-全值匹配" class="header-anchor">#</a> 1.全值匹配</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE age=30 and deptid=4 AND name = 'abcd';
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>创建索引</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>CREATE INDEX idx_age_deptid_name ON emp(age,deptid,NAME);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="_2-最佳左前缀法则"><a href="#_2-最佳左前缀法则" class="header-anchor">#</a> 2.最佳左前缀法则</h4> <blockquote><p>写SQL的时候要遵循最佳左前缀原则</p></blockquote> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>idx_age_deptid_name索引只对以下情况有效
+where age=? and deptId=? and name=?
+where age=? and deptId=?
+where age=?
+对以下无效
+where deptId=? and name=?(因为第一个位置无法确定)
+where age=? and name=?(中间断开也不行)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="_3-计算、函数导致索引失效"><a href="#_3-计算、函数导致索引失效" class="header-anchor">#</a> 3.计算、函数导致索引失效</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>CREATE INDEX idx_name ON emp(NAME);
+
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.name LIKE 'abc%';
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE LEFT(emp.name,3) = 'abc';
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>第一种查询索引生效、第二种查询索引失效</p> <h4 id="_4-范围条件右边的列索引失效"><a href="#_4-范围条件右边的列索引失效" class="header-anchor">#</a> 4.范围条件右边的列索引失效</h4> <blockquote><p>所以遇到范围查询，尽量将范围查询放在最后边，然后针对这几个字段建立组合索引。</p></blockquote> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>EXPLAIN SELECT  SQL_NO_CACHE * FROM emp WHERE emp.age=30 AND emp.deptId&gt;20 AND emp.name = 'abc' ;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>虽然显示使用了索引，但是key_len的值明显少了很多，并且查询的列rows也增多了。</p> <p>应该建立：</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>create index idx_age_name_deptid on emp(age,name,deptid);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>然后将范围查询条件放最后：</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>EXPLAIN SELECT  SQL_NO_CACHE * FROM emp WHERE emp.age=30 AND emp.name = 'abc'AND  emp.deptId&gt;20 ;
+# 对比强制使用idx_age_deptId_name，有明显的优化效果
+EXPLAIN SELECT  SQL_NO_CACHE * FROM emp force index(idx_age_deptId_name) WHERE emp.age=30 AND emp.name = 'abc'AND  emp.deptId&gt;20 ;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h4 id="_5-或者-索引失效"><a href="#_5-或者-索引失效" class="header-anchor">#</a> 5.!=或者&lt;&gt;索引失效</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>CREATE INDEX idx_name ON emp(NAME);
+
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.name != 'abc';
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.name &lt;&gt;  'abc';
+
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE emp.name = 'abc'; # 使用 = 不会失效
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h4 id="_6-is-not-null无法使用索引-is-null可以"><a href="#_6-is-not-null无法使用索引-is-null可以" class="header-anchor">#</a> 6.is not null无法使用索引，is null可以</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>CREATE INDEX idx_age ON emp(age);
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE age IS NULL;  
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE age IS NOT NULL;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h4 id="_7-like以通配符-开头索引失效"><a href="#_7-like以通配符-开头索引失效" class="header-anchor">#</a> 7.like以通配符%开头索引失效</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE name LIKE 'ab%'; 
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE name LIKE '%ab%';
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="_8-类型转换导致索引失效"><a href="#_8-类型转换导致索引失效" class="header-anchor">#</a> 8.类型转换导致索引失效</h4> <blockquote><p>设计实体类属性时，一定要与数据库字段类型相对应，否则会出现类型转换的情况</p></blockquote> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE name=123;  # 失效
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE name='123'; 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="单表优化建议"><a href="#单表优化建议" class="header-anchor">#</a> 单表优化建议</h3> <ol><li><p>对于单键索引，尽量选择过滤性更好的索引（例如：手机号，邮件，身份证，用户名）</p></li> <li><p>选择组合索引的时候，过滤性最好的字段在索引字段顺序位置越靠前越好。</p></li> <li><p>组合索引遇到范围查询时，尽量把这个字段放在索引次序的最后面</p></li> <li><p>选择组合索引的时候，尽量包含where中更多字段的索引。(where deptId&gt;20；索引：idx_age_name_deptId)</p></li> <li><p>尽量避免索引失效的情况</p></li></ol> <h2 id="_11-查询优化-连表"><a href="#_11-查询优化-连表" class="header-anchor">#</a> 11.查询优化_连表</h2> <table><thead><tr><th></th> <th>驱动表</th> <th>被驱动表</th></tr></thead> <tbody><tr><td>left join</td> <td>左表</td> <td>右表</td></tr> <tr><td>right join</td> <td>右表</td> <td>左表</td></tr></tbody></table> <h3 id="建议"><a href="#建议" class="header-anchor">#</a> 建议</h3> <ol><li>针对左外、右外连接，保证被驱动表的关联字段被索引。</li> <li>选择小表作为驱动表，大表作为被驱动表（但是具体哪个表作为驱动表还是需要根据实际业务决定）</li> <li>inner join时，mysql自动选择一个表【小表或连表字段没有索引的】作为驱动表（不一定）。</li> <li>straight_join 可以优化inner join,强制使用一张表【straight_join前边的表】作为驱动表</li></ol> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>create index idx_deptid on emp(deptId);
+
+explain SELECT * from dept STRAIGHT_JOIN emp on emp.deptId = dept.id
+explain SELECT * from dept INNER JOIN emp on emp.deptId = dept.id
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ol start="5"><li>互联网公司，不建议连表，用空间换时间（当A表需要使用B表的字段时，直接在A表中添加这些字段，这样就可以直接单表查询）</li> <li>能够直接使用多表联查就不要用子查询。</li></ol> <h2 id="_12-查询优化-子查询"><a href="#_12-查询优化-子查询" class="header-anchor">#</a> 12.查询优化_子查询</h2> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>先创建一个索引
+CREATE INDEX idx_ceo ON t_dept (ceo);
+①不推荐
+Explain SELECT * FROM t_emp a WHERE a.id NOT IN 
+(SELECT b.ceo FROM t_dept b WHERE b.ceo IS NOT NULL);
+②推荐
+Explain SELECT a.* FROM t_emp a 
+LEFT JOIN t_dept b
+ON a.id = b.ceo 
+WHERE b.id IS NULL;
+结论：
+NOT IN --&gt;LEFT JOIN xxx ON xx WHERE xx IS NULL
+尽量不要使用not in  或者 not exists
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h3 id="建议-2"><a href="#建议-2" class="header-anchor">#</a> 建议</h3> <p>遇到子查询就转为连表查询</p> <h2 id="_13-查询优化-排序、分组优化"><a href="#_13-查询优化-排序、分组优化" class="header-anchor">#</a> 13.查询优化_排序、分组优化</h2> <h3 id="排序情况"><a href="#排序情况" class="header-anchor">#</a> 排序情况</h3> <h4 id="_1-无过滤-不索引"><a href="#_1-无过滤-不索引" class="header-anchor">#</a> 1.无过滤，不索引</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>#创建索引
+create index idx_deptid on emp(deptid);
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp ORDER BY deptid; 
+#增加limit过滤条件，使用上索引了。
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp ORDER BY deptid LIMIT 10; 
+#limit过滤索引失效
+EXPLAIN SELECT SQL_NO_CACHE * FROM emp ORDER BY deptid LIMIT 100000,10; 
+#可以使用where先进行过滤
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h4 id="_2-顺序错-必排序-using-filesort"><a href="#_2-顺序错-必排序-using-filesort" class="header-anchor">#</a> 2.顺序错，必排序(using filesort)</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>CREATE INDEX idx_age_deptid_name ON emp (age,deptid,NAME);
+EXPLAIN SELECT * FROM emp WHERE age=45 ORDER BY deptid;
+EXPLAIN SELECT * FROM emp WHERE age=45 ORDER BY deptid,NAME;
+
+EXPLAIN SELECT * FROM emp WHERE age=45 ORDER BY NAME,deptid; #顺序不对(Using filesort)
+EXPLAIN SELECT * FROM emp WHERE deptid=45 ORDER BY age; #顺序不对(Using filesort)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h4 id="_3-方向反-必排序-using-filesort"><a href="#_3-方向反-必排序-using-filesort" class="header-anchor">#</a> 3.方向反，必排序(using filesort)</h4> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>EXPLAIN SELECT * FROM emp WHERE age=45 ORDER BY deptid DESC, NAME DESC ;
+EXPLAIN SELECT * FROM emp WHERE age=45 ORDER BY deptid ASC, NAME DESC ; #升序和降序相反(using filesort)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="索引的选择"><a href="#索引的选择" class="header-anchor">#</a> 索引的选择</h3> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>EXPLAIN SELECT SQL_NO_CACHE * FROM emp WHERE age =30 AND empno &lt;101000 ORDER BY NAME ;
+#创建索引
+CREATE INDEX idx_age_empno_name ON emp (age,empno,NAME);
+#由于empno&lt;101000 导致 name索引失效 (using filesort)
+#创建能去掉using filesort的索引
+#先删除前面的索引
+CREATE INDEX idx_age_name ON emp(age,NAME);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p><strong>创建idx_age_name确实把using filesort去掉了，但是我们idx_age_empno_name索引优化的效率更高</strong></p> <p>原因：</p> <ul><li>where条件的过滤性 ,where条件如果过滤性好，就算出现using filesort也没关系。</li> <li>where条件如果过滤性不好，要给where条件和order by后边的字段建立组合索引</li></ul> <h3 id="双路排序和单路排序"><a href="#双路排序和单路排序" class="header-anchor">#</a> 双路排序和单路排序</h3> <h4 id="双路排序-慢"><a href="#双路排序-慢" class="header-anchor">#</a> 双路排序(慢)</h4> <blockquote><p>先把索引列从磁盘加载到内存中排序，然后再把非索引列从磁盘加载到内存中进行排序，需要两次扫盘。</p> <p>两次磁盘读取，占用内存空间少</p></blockquote> <h4 id="单路排序-快"><a href="#单路排序-快" class="header-anchor">#</a> 单路排序(快)</h4> <blockquote><p>一次把所有的列(索引列、非索引列)从磁盘加载到内存中排序，只需要一次扫盘。</p> <p>一次磁盘读取，占用内存空间多</p></blockquote> <h4 id="单路排序的问题"><a href="#单路排序的问题" class="header-anchor">#</a> 单路排序的问题</h4> <ul><li>单次读取数据超出sort_buffer的容量，导致每次只能去sort_buffer容量大小的数据，进行排序（创建tmp文件，多路合并），排完再取sort_buffer容量大小，再排.....从而多次I/O操作</li> <li>单路本意是减少I/O操作，现在反而导致了大量的I/O操作，得不偿失</li></ul> <h4 id="优化策略"><a href="#优化策略" class="header-anchor">#</a> 优化策略</h4> <ul><li>增大sort_buffer_size参数的设置（1m-8m）</li> <li>增大max_length_for_sort_data参数的设置（1k-8k）</li> <li>减少select后面的查询的字段。禁止使用select *</li></ul> <h3 id="group-by优化"><a href="#group-by优化" class="header-anchor">#</a> GROUP BY优化</h3> <ul><li>group by 没有过滤条件，也可以用上索引。Order By 必须有过滤条件才能使用索引</li> <li>group by 先排序再分组，遵照最佳左前缀法则</li> <li>当无法使用索引列，增大max_length_for_sort_data和sort_buffer_size参数的设置</li></ul> <blockquote><p>1.limit分页优化，尽量也是结合where条件
+2.优化器执行的不一定是最好的，实际开发中，试一试,explain 、show profiles！</p></blockquote> <h2 id="_14-覆盖索引优化"><a href="#_14-覆盖索引优化" class="header-anchor">#</a> 14.覆盖索引优化</h2> <blockquote><p>select 到 from 之间查询的列使用了索引！覆盖索引不用回表查询，通常出现于innodb引擎</p></blockquote> <p>回表查询：先定位主键值，再定位行数据，性能较低。</p> <p>覆盖索引：只需要在一颗索引树上就能获取SQL所需的所有列数据</p> <p>将被查询的字段，建立到联合索引里去就能实现覆盖索引</p> <blockquote><p>select count(*) from user;默认使用了索引覆盖。<strong>作用等同于</strong>:explain select count(id) from user; //id列是有主键索引的。</p></blockquote> <h2 id="_15-查询截取分析-慢查询日志"><a href="#_15-查询截取分析-慢查询日志" class="header-anchor">#</a> 15.查询截取分析_慢查询日志</h2> <blockquote><p>作用：保存慢查询SQL的日志文件：慢查询日志
+mysql默认的慢SQL的时间：10s</p></blockquote> <h3 id="使用"><a href="#使用" class="header-anchor">#</a> 使用</h3> <ol><li>show variables like 'slow query%';</li> <li>开启慢查询日志功能:slow query_log = 1</li> <li>多长时间的SQL算慢SQL？show global variables like 'long_query_time';(默认10s)</li> <li>配置文件中修改参数</li></ol> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code> <span class="token function">vim</span> /etc/my.cnf 
+ <span class="token assign-left variable">slow_query_log</span><span class="token operator">=</span><span class="token number">1</span>
+ <span class="token assign-left variable">slow_query_log_file</span><span class="token operator">=</span>/var/lib/mysql/localhost-slow.log
+ <span class="token assign-left variable">long_query_time</span><span class="token operator">=</span><span class="token number">1</span>
+ <span class="token assign-left variable">log_output</span><span class="token operator">=</span>FILE
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="5"><li>查看慢查询日志中的SQL：show global status like '%Slow_queries';</li> <li>针对慢查询日志文件中的SQL，如果有多个的情况，还可以使用mysqldumpslow分析工具对慢日志进行分析</li></ol> <h2 id="_16-视图"><a href="#_16-视图" class="header-anchor">#</a> 16.视图</h2> <p>概念：视图是建立表的基础之上的一张伪表，是底层表的映射</p> <p>作用：1.保存表的隐私数据，2.封装复杂的业务逻辑[统计分析]</p> <p>具体操作：</p> <ol><li>视图的创建：
+create or replace view 视图名 as select 查询语句(表)</li> <li>视图的增删改操作和表的是一模一样。
+insert into 视图名 values()
+update 视图名 set 字段名 where 条件
+delete from 视图名 where 条件</li></ol> <h2 id="_17-主从复制"><a href="#_17-主从复制" class="header-anchor">#</a> 17.主从复制</h2> <h3 id="相关概念"><a href="#相关概念" class="header-anchor">#</a> 相关概念</h3> <p>bin log：二进制日志，记录的是对当前节点的增删改的语句</p> <p>relay log：中继日志，在主从复制的从节点使用，记录的是从主节点复制过来的SQL</p> <p>redo log：当mysql服务区出现问题的时候，恢复mysql服务器中的数据使用的。</p> <p>undo log：事务回滚使用的</p> <h4 id="mysql的主从复制和redis的主从复制的区别"><a href="#mysql的主从复制和redis的主从复制的区别" class="header-anchor">#</a> mysql的主从复制和redis的主从复制的区别</h4> <ol><li>mysql主从复制慢一些</li> <li>mysql的复制是增量复制，是从成为从节点之后的位置开始复制</li></ol> <h3 id="复制的基本原理"><a href="#复制的基本原理" class="header-anchor">#</a> 复制的基本原理</h3> <blockquote><p>slave会从master读取binlog来进行数据同步</p></blockquote> <p><img src="https://lskyimage-1306894954.cos.ap-nanjing.myqcloud.com/2021/11/23/6b3b3589edf4b.png" alt="1637669283730.png"></p> <p>MySQL复制三步骤:</p> <p>1 master将写操作记录到<strong>二进制日志（binary log）</strong>。这些记录过程叫做二进制日志事件，binary log events；</p> <p>2 slave将master的binary log events拷贝到它的<strong>中继日志（relay log）</strong>；</p> <p>从服务器I/O线程将主服务器的二进制日志读取过来记录到从服务器本地文件，然后SQL线程会读取relay-log日志的内容并应用到从服务器，从而使从服务器和主服务器的数据保持一致！</p> <p>3 slave重做中继日志中的事件，将改变应用到自己的数据库中。 MySQL复制是<strong>异步的且串行化的，而且重启后从接入点开始复制。</strong></p> <h3 id="复制的基本原则"><a href="#复制的基本原则" class="header-anchor">#</a> 复制的基本原则</h3> <ul><li>每个slave只有一个master</li> <li>每个slave只能有一个唯一的服务器ID</li> <li>每个master可以有多个slave</li></ul> <h2 id="主从复制搭建"><a href="#主从复制搭建" class="header-anchor">#</a> 主从复制搭建</h2> <blockquote><p>vim /var/lib/mysql/auto.cnf 下更改uuid(uuid不能重复，建议修改一个数字)，重启服务</p></blockquote> <h3 id="主机配置"><a href="#主机配置" class="header-anchor">#</a> 主机配置</h3> <p>my.cnf</p> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>server-id=1
+log-bin=mysql-bin
+binlog-ignore-db=mysql
+binlog-ignore-db=infomation_schema
+binlog-do-db=mytestdb
+binlog_format=STATEMENT
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="创建账户并授权"><a href="#创建账户并授权" class="header-anchor">#</a> 创建账户并授权</h3> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>CREATE USER 'username'@'%' IDENTIFIED BY '123456';
+GRANT REPLICATION SLAVE ON *.* TO 'slave'@'%' IDENTIFIED BY '123456';
+flush privileges;
+show master status;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="从机配置"><a href="#从机配置" class="header-anchor">#</a> 从机配置</h3> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>server-id=2
+relay-log=mysql-relay
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="从机指定主机"><a href="#从机指定主机" class="header-anchor">#</a> 从机指定主机</h3> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code>CHANGE MASTER TO MASTER_HOST='192.168.136.10',
+MASTER_USER='slave',MASTER_PASSWORD='123456',
+MASTER_LOG_FILE='mysql-bin.000001',MASTER_LOG_POS=590; 
+start slave;  开始主从复制
+show slave status;查看从机状态
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id="if和case-when"><a href="#if和case-when" class="header-anchor">#</a> if和case when</h2> <div class="language-mysql line-numbers-mode"><pre class="language-text"><code># if
+select a.name,
+if(b.ceo is null,'否','是')'是否为掌门'
+from t_emp a
+left JOIN t_dept b on a.id = b.ceo
+#case when
+select a.name,case when b.ceo is null then '否' else '是' end '是否为掌门'
+from t_emp a
+left JOIN t_dept b on a.id = b.ceo
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="mysql-binlog"><a href="#mysql-binlog" class="header-anchor">#</a> MySQL-Binlog</h2> <div class="language-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">show</span> master <span class="token keyword">status</span>
+<span class="token keyword">show</span> master logs
+
+<span class="token keyword">show</span> variables <span class="token operator">like</span> <span class="token string">'binlog_format'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">show</span> variables <span class="token operator">like</span> <span class="token string">'log_bin'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">show</span> variables <span class="token operator">like</span> <span class="token string">'%server_id%'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">show</span> binlog events <span class="token operator">in</span> <span class="token string">'mysql-bin.000496'</span> <span class="token keyword">from</span> <span class="token number">743316937</span> <span class="token keyword">limit</span> <span class="token number">5000</span><span class="token punctuation">;</span>
+<span class="token comment">#398035538</span>
+<span class="token keyword">show</span> <span class="token keyword">BINARY</span> logs<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="_18-问题排查"><a href="#_18-问题排查" class="header-anchor">#</a> 18. 问题排查</h2> <p>查询是否锁表</p> <div class="language-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">show</span> <span class="token keyword">OPEN</span> <span class="token keyword">TABLES</span> <span class="token keyword">where</span> In_user <span class="token operator">&gt;</span> e<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>查询进程</p> <div class="language-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">show</span> processlist
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>查询正在锁的事务</p> <div class="language-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> information_schema<span class="token punctuation">.</span>innodb_locks
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>查看等待锁的事务</p> <div class="language-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> information_schema<span class="token punctuation">.</span>innodb_lock_waits
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="_19-锁表"><a href="#_19-锁表" class="header-anchor">#</a> 19. 锁表</h2> <p>mysql 什么情况下会出现表锁定问题？</p> <p>1）大量并发访问</p> <p>​	当多个用户同时访问同一张表时，可能会出现表锁定问题。这是因为MySQL默认使用行级锁定，但当需要修改表结构、插入大量数据或执行复杂查询等操作时，MySQL会自动切换为表级锁定，导致其他用户无法访问该表。</p> <p>解决方案：优化SQL语句，尽量减少表级锁定的使用，或者采用分区表技术，将一张大表拆分成多个小表，减少并发访问冲突</p> <p>2）长事务导致锁定</p> <p>​	长时间运行的事务可能会导致表锁定。当一个事务占用了表中的某些资源，其他事务无法访问该资源，从而出现表锁定问题。</p> <p>解决方案：尽量减少事务的运行时间，及时提交或回滚事务，避免长时间运行。</p> <p>3）索引问题</p> <p>​	如果表没有适当的索引或索引使用不当，也可能会导致表锁定问题。例如，在执行一些复杂查询时，MySQL可能会锁定整个表，而不是只锁定需要查询的行。</p> <p>解决方案：为表添加适当的索引，优化SQL查询语句，减少锁定的行数。</p> <p>4）存储引擎问题</p> <p>MyISAM引擎只支持表锁，InnoDB存储引擎则支持行级锁定。</p> <p>解决方案：根据业务需求选择合适的存储引擎，或者将表转换为支持行级锁定的存储引擎。</p> <p>表锁定问题是MySQL中常见的问题，但可以通过优化SQL语句、减少事务运行时间、添加适当的索引、选择合适的存储引擎等方式来解决。对于大量并发访问的情况，可以采用分区表技术将一张大表拆分成多个小表，减少并发访问冲突。</p></div></section> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">6 months ago</span></div></footer> <!----> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:12rem;" data-v-70334359><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_1-mysql安装" class="sidebar-link reco-side-_1-mysql安装" data-v-70334359>1.MySQL安装</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_2-mysql用户管理和权限管理" class="sidebar-link reco-side-_2-mysql用户管理和权限管理" data-v-70334359>2.MySQL用户管理和权限管理</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_3-mysql会话" class="sidebar-link reco-side-_3-mysql会话" data-v-70334359>3.MySQL会话</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_4-查询案例" class="sidebar-link reco-side-_4-查询案例" data-v-70334359>4.查询案例</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#where和having的区别" class="sidebar-link reco-side-where和having的区别" data-v-70334359>where和having的区别</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_5-mysql的架构" class="sidebar-link reco-side-_5-mysql的架构" data-v-70334359>5.MySQL的架构</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_1-解析器" class="sidebar-link reco-side-_1-解析器" data-v-70334359>1.解析器</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_2-优化器-optimizer" class="sidebar-link reco-side-_2-优化器-optimizer" data-v-70334359>2.优化器(optimizer)</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_3-存储引擎" class="sidebar-link reco-side-_3-存储引擎" data-v-70334359>3.存储引擎</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_4-缓存" class="sidebar-link reco-side-_4-缓存" data-v-70334359>4.缓存</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_6-索引" class="sidebar-link reco-side-_6-索引" data-v-70334359>6.索引</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#b-ttree相比于btree的优势" class="sidebar-link reco-side-b-ttree相比于btree的优势" data-v-70334359>B+Ttree相比于BTree的优势：</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#mysql索引" class="sidebar-link reco-side-mysql索引" data-v-70334359>MySQL索引</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#mysql索引分类" class="sidebar-link reco-side-mysql索引分类" data-v-70334359>MySQL索引分类</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#基本语法" class="sidebar-link reco-side-基本语法" data-v-70334359>基本语法</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#索引创建的情况分析" class="sidebar-link reco-side-索引创建的情况分析" data-v-70334359>索引创建的情况分析</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_7-索引优化分析-explain、desc" class="sidebar-link reco-side-_7-索引优化分析-explain、desc" data-v-70334359>7.索引优化分析_explain、desc</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_8-explain重要字段解释" class="sidebar-link reco-side-_8-explain重要字段解释" data-v-70334359>8.explain重要字段解释</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#id" class="sidebar-link reco-side-id" data-v-70334359>id:</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#type值" class="sidebar-link reco-side-type值" data-v-70334359>type值：</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#key-len-越大越好" class="sidebar-link reco-side-key-len-越大越好" data-v-70334359>key_len:  越大越好</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#extra列" class="sidebar-link reco-side-extra列" data-v-70334359>Extra列：</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#rows-越小越好" class="sidebar-link reco-side-rows-越小越好" data-v-70334359>rows：越小越好</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_9-查询优化-准备" class="sidebar-link reco-side-_9-查询优化-准备" data-v-70334359>9.查询优化_准备</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#连表概念" class="sidebar-link reco-side-连表概念" data-v-70334359>连表概念</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#表数据准备" class="sidebar-link reco-side-表数据准备" data-v-70334359>表数据准备</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#函数" class="sidebar-link reco-side-函数" data-v-70334359>函数</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_10-查询优化-单表" class="sidebar-link reco-side-_10-查询优化-单表" data-v-70334359>10.查询优化_单表</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#索引失效情况" class="sidebar-link reco-side-索引失效情况" data-v-70334359>索引失效情况</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#单表优化建议" class="sidebar-link reco-side-单表优化建议" data-v-70334359>单表优化建议</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_11-查询优化-连表" class="sidebar-link reco-side-_11-查询优化-连表" data-v-70334359>11.查询优化_连表</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#建议" class="sidebar-link reco-side-建议" data-v-70334359>建议</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_12-查询优化-子查询" class="sidebar-link reco-side-_12-查询优化-子查询" data-v-70334359>12.查询优化_子查询</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#建议-2" class="sidebar-link reco-side-建议-2" data-v-70334359>建议</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_13-查询优化-排序、分组优化" class="sidebar-link reco-side-_13-查询优化-排序、分组优化" data-v-70334359>13.查询优化_排序、分组优化</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#排序情况" class="sidebar-link reco-side-排序情况" data-v-70334359>排序情况</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#索引的选择" class="sidebar-link reco-side-索引的选择" data-v-70334359>索引的选择</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#双路排序和单路排序" class="sidebar-link reco-side-双路排序和单路排序" data-v-70334359>双路排序和单路排序</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#group-by优化" class="sidebar-link reco-side-group-by优化" data-v-70334359>GROUP BY优化</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_14-覆盖索引优化" class="sidebar-link reco-side-_14-覆盖索引优化" data-v-70334359>14.覆盖索引优化</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_15-查询截取分析-慢查询日志" class="sidebar-link reco-side-_15-查询截取分析-慢查询日志" data-v-70334359>15.查询截取分析_慢查询日志</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#使用" class="sidebar-link reco-side-使用" data-v-70334359>使用</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_16-视图" class="sidebar-link reco-side-_16-视图" data-v-70334359>16.视图</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_17-主从复制" class="sidebar-link reco-side-_17-主从复制" data-v-70334359>17.主从复制</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#相关概念" class="sidebar-link reco-side-相关概念" data-v-70334359>相关概念</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#复制的基本原理" class="sidebar-link reco-side-复制的基本原理" data-v-70334359>复制的基本原理</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#复制的基本原则" class="sidebar-link reco-side-复制的基本原则" data-v-70334359>复制的基本原则</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#主从复制搭建" class="sidebar-link reco-side-主从复制搭建" data-v-70334359>主从复制搭建</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#主机配置" class="sidebar-link reco-side-主机配置" data-v-70334359>主机配置</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#创建账户并授权" class="sidebar-link reco-side-创建账户并授权" data-v-70334359>创建账户并授权</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#从机配置" class="sidebar-link reco-side-从机配置" data-v-70334359>从机配置</a></li><li class="level-3" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#从机指定主机" class="sidebar-link reco-side-从机指定主机" data-v-70334359>从机指定主机</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#if和case-when" class="sidebar-link reco-side-if和case-when" data-v-70334359>if和case when</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#mysql-binlog" class="sidebar-link reco-side-mysql-binlog" data-v-70334359>MySQL-Binlog</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_18-问题排查" class="sidebar-link reco-side-_18-问题排查" data-v-70334359>18. 问题排查</a></li><li class="level-2" data-v-70334359><a href="/blogs/MySQL/MySQLAdvanced.html#_19-锁表" class="sidebar-link reco-side-_19-锁表" data-v-70334359>19. 锁表</a></li></ul></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><div></div><APlayer audio="" fixed="true" mini="true" theme="#f9bcdd" loop="loop" order="random" preload="auto" volume="0.3" mutex="true" lrc-type="0" list-folded="true" list-max-height="250" storage-name="vuepress-plugin-meting" id="aplayer-fixed"></APlayer></div></div>
+    <script src="/assets/js/app.03646987.js" defer></script><script src="/assets/js/3.a8134f0a.js" defer></script><script src="/assets/js/1.a394b090.js" defer></script><script src="/assets/js/80.ffafa3ff.js" defer></script>
+  </body>
+</html>
